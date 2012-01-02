@@ -62,6 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="analyze\Gps.cs" />
     <Compile Include="helper\CsvHelper.cs" />
     <Compile Include="io\BasicSerialPort.cs">
       <SubType>Component</SubType>
@@ -77,8 +78,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="replay\Player.cs" />
+    <Compile Include="MainFormGPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="util\ConvUtil.cs" />
     <Compile Include="util\PropertyUtil.cs" />
     <Compile Include="util\CommonUtil.cs" />
+    <Compile Include="MainFormSerial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormCsv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="io\BasicSerialPort.resx">
       <DependentUpon>BasicSerialPort.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +145,22 @@
       <ProductName>Windows インストーラー 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\course.bmp" />
+    <Content Include="assets\muki_east.png" />
+    <Content Include="assets\muki_east_active.png" />
+    <Content Include="assets\muki_north.png" />
+    <Content Include="assets\muki_north_active.png" />
+    <Content Include="assets\muki_south.png" />
+    <Content Include="assets\muki_south_active.png" />
+    <Content Include="assets\muki_west.png" />
+    <Content Include="assets\muki_west_active.png" />
+    <Content Include="assets\point.bmp" />
+    <Content Include="assets\sample_course.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ui\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

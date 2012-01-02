@@ -35,5 +35,26 @@
     <Setting Name="textBoxVal7" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="numericUpDownPlaySpeed" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="numUpDownCourseScale" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1.2</Value>
+    </Setting>
+    <Setting Name="numUpDownShajikuLen" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">16.8</Value>
+    </Setting>
+    <Setting Name="numUpDownTireRadius" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">4.17</Value>
+    </Setting>
+    <Setting Name="textBoxKakudo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">270</Value>
+    </Setting>
+    <Setting Name="pictureBoxPoint_Left" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="pictureBoxPoint_Top" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
