@@ -1,4 +1,4 @@
-NXTCommunicatorはETロボコンの開発ツールです。
+NxtCommunicatorはETロボコンの開発ツールです。
 
 ■機能
 1. NXTから送信されるログデータの受信
@@ -67,6 +67,7 @@ NXTCommunicatorはETロボコンの開発ツールです。
 ■動作環境
   .NetFramework4 が必要です。
   Windows7でのみ動作確認しています。
+  Visual C# 2010 Express で作成。
 
 ■既知の問題
 ・「ログ再生スピード」を大きくしてログ再生すると、再生中はボタンなどが無反応になります。
