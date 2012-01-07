@@ -218,7 +218,6 @@ namespace NxtCommunicator
             {
                 e.Effect = DragDropEffects.None;
             }
-
         }
 
         /// <summary>

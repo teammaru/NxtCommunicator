@@ -67,23 +67,23 @@ namespace NxtCommunicator.analyze
 
             double saX = 0;
             double saY = 0;
-            double kakudo = saveSenkaiKakudo + senkaiKakudo;
+            double kakudo = saveSenkaiKakudo + senkaiKakudo / 2;
 
             // cosは引数がゼロの場合（直進した場合）に１を返すので、ゼロ以外の場合にのみcos演算する
             // （ゼロの場合はsaXはゼロ）
-            // X座標 ＝ 移動した距離 * cos(トータルの旋回角度)
+            // X座標 ＝ 移動した距離 * cos(過去旋回角度 + 今回旋回角度 / 2)
             if (kakudo != 0)
             {
                 saX = distance * Math.Cos(kakudo);
             }
 
-            // Y座標 ＝ 移動した距離 * sin(トータルの旋回角度)
+            // Y座標 ＝ 移動した距離 * sin(過去旋回角度 + 今回旋回角度 / 2)
             saY = distance * Math.Sin(kakudo);
 
             Position pos = new Position();
             pos.X = saveX + saX;
             pos.Y = saveY + saY;
-            pos.Kakudo = kakudo;
+            pos.Kakudo = saveSenkaiKakudo + senkaiKakudo;
 
             //Debug.WriteLine(
             //        "motorCountL:" + motorCountL
