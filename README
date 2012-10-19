@@ -8,6 +8,9 @@ NxtCommunicatorはETロボコンの開発ツールです。
 5. ログのCSV Export、Import
 6. ログの再生によるコース画像へのプロット
 
+■Screenshot
+![Alt text](/readme-image/screen-shot.png)
+
 ■使い方
 1. ログの受信
   ※Bluetoothでのログ受信方法は http://lejos-osek.sourceforge.net/jp/nxtgamepad.htm を参照
