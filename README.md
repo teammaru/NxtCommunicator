@@ -8,6 +8,9 @@ NxtCommunicatorはETロボコンの開発ツールです。
 5. ログのCSV Export、Import  
 6. ログの再生によるコース画像へのプロット  
 
+■Movie  
+http://www.youtube.com/watch?v=OKdR9NgGhBQ&feature=youtu.be
+
 ■Screenshot  
 ![screenshot](/teammaru/NxtCommunicator/blob/master/readme-image/screen-shot.png?raw=true)
   
