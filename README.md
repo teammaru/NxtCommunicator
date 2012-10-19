@@ -9,7 +9,7 @@ NxtCommunicatorはETロボコンの開発ツールです。
 6. ログの再生によるコース画像へのプロット
 
 ■Screenshot
-![screenshot](/readme-image/screen-shot.png)
+![screenshot](/teammaru/NxtCommunicator/readme-image/screen-shot.png)
 
 ■使い方
 1. ログの受信
