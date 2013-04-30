@@ -12,8 +12,7 @@ NxtCommunicatorはETロボコンの開発ツールです。
 http://www.youtube.com/watch?v=OKdR9NgGhBQ&feature=youtu.be  
 
 ■Screenshot  
-![screenshot](/teammaru/NxtCommunicator/blob/master/readme-image/screen-shot.png?raw=true)
-  
+![screenshot](https://raw.github.com/teammaru/NxtCommunicator/master/readme-image/screen-shot.png)
   
 ■使い方  
 1. ログの受信  
